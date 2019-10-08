@@ -1,13 +1,13 @@
 # AvaliacaoQAGabriela
 
-##Simulador de investimento
+## Simulador de investimento
 
-###Escopo
+### Escopo
 **História: Simulação de investimento em poupança**
 - Testes funcionais automatizados
 - Testes de serviço
 
-###Estratégias
+### Estratégias
 **Testes Integração e Sistema**<br/><br/>
 Validar os elementos da funcionalidade de forma a verificar se alguma falha possa ocorrer durante a utilização
 com as referentes entradas. Os testes são baseados no requisito informado, verificando se o sistema se comporta conforme
@@ -16,7 +16,7 @@ com as referentes entradas. Os testes são baseados no requisito informado, veri
 Com a utilização da linguagem Gherkin é possível validar o fluxo do usuário de forma auto explicativa,
 simulando a utilização do sistema seguindo os passos descritos. 
 
-##Ferramentas
+## Ferramentas
 **Funcionais e aceitação:**
 - BDD com Cucumber
 - Java / Gradle
@@ -26,14 +26,14 @@ simulando a utilização do sistema seguindo os passos descritos.
 - Rest assurred
 - JUnit 4
 
-##Cenários mapeados:
+## Cenários mapeados:
 1. Simular financiamento com sucesso
 2. Tentar simular com valor inferior a R$ 20,00
 3. Tentar simular sem preencher campos obrigatorios
 4. Limpar formulario
 5. Chamar serviço de simulação com sucesso
 
-##Execução dos testes<br/><br/>
+## Execução dos testes<br/><br/>
 
 Para executar os testes na IDE:
 - Aceitação: executar a feature SimularInvestimento.feature no diretorio test/resources/features
